@@ -7,7 +7,7 @@ function PDF() {
 
   return (
     <Container className="flex-center blue-container">
-        <iframe src={file} title="PDF Viewer" width="100%" height="1350px" />
+        <iframe src={file} title="PDF Viewer" className="pdf-iframe" />
     </Container>
   );
 }
