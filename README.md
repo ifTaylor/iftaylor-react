@@ -1,4 +1,4 @@
-# pristinestl
+# iftaylor-react
 
 ### Business website for Pristine STL LLC.
 
@@ -16,4 +16,3 @@ $ npm run start
 #### Run backend
 $ pip install -r requirements.txt
 ./api $ python email_service.py
-# iftaylor-react
