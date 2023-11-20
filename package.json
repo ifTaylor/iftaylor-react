@@ -1,7 +1,7 @@
 {
-  "name": "prinstinestl",
+  "name": "iftaylor",
   "version": "1.0.0",
-  "description": "Cleaning business website.",
+  "description": "Portfolio & Hobby Site.",
   "scripts": {
     "start": "next start",
     "static": "npx serve@latest out -l 80 out",
@@ -11,13 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ifTaylor/pristinestl.git"
+    "url": "https://github.com/ifTaylor/iftaylor-react.git"
   },
   "keywords": [
-    "cleaning",
-    "cleaning-service",
-    "janitorial",
-    "housekeeping"
+    "portfolio",
+    "hobby"
   ],
   "author": "Taylor Turner",
   "license": "ISC",
