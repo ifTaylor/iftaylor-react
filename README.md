@@ -1,6 +1,6 @@
 # iftaylor-react
 
-### Business website for Pristine STL LLC.
+### Portfolio and Hobby Website
 
 - Client: Next.js
 - Server: Flask.
