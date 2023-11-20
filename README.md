@@ -1,6 +1,6 @@
-# pristinestl
+# iftaylor-react
 
-### Business website for Pristine STL LLC.
+### Portfolio and Hobby Website
 
 - Client: Next.js
 - Server: Flask.
@@ -16,4 +16,3 @@ $ npm run start
 #### Run backend
 $ pip install -r requirements.txt
 ./api $ python email_service.py
-# iftaylor-react
