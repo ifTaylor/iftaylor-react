@@ -1,0 +1,104 @@
+// Variables
+$primary-bg-color: #f8f9fa;
+$font-family: "Calibri";
+$text-color: #36454f;
+$link-color: #00aeef;
+$highlight-color: #ffffff;
+$primary-color: #00aeef;
+$light-bg-color: #ffffff;
+$cta-button-bg-color: #00aeef;
+$cta-button-hover-color: #00aeef;
+
+// Reusable styles
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center-start {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.flex-inline {
+    display: flex;
+}
+
+.center-content {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+// Base styles
+body {
+    background-color: $primary-color;
+    font-family: $font-family;
+}
+
+header {
+    background-color: $light-bg-color;
+    padding: 20px 0;
+}
+
+a {
+    color: $link-color;
+}
+
+footer {
+  background-color: #36454f;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+
+  p {
+      margin: 0;
+  }
+}
+
+.center-container {
+    margin: auto;
+    text-align: center;
+
+    h3 {
+        text-align: center;
+    }
+}
+
+.container-padding {
+    padding-top: 100px;
+}
+
+.item-padding {
+    padding: 20px;
+}
+
+.blue-container {
+    background-color: #00aeef;
+    border-radius: 10px;
+}
+
+
+.success-message {
+    color: black;
+}
+  
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+.header-message {
+    color: $highlight-color;
+    background-color: $primary-color;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+
+    h3 {
+        font-weight: bold;
+        font-size: 18px;
+    }
+}

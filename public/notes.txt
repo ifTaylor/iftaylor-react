@@ -1,0 +1,3 @@
+Color hex codes:
+blue:
+00aeef
