@@ -13,42 +13,35 @@ export default function Header(
 ) {
   return (
     <Container>
-      <Navbar expand="lg" className="navbar-light">
-        <Container>
-          <Row>
-            <Col>
-              <Container className="">
-                <Navbar.Toggle type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span className="navbar-toggler-icon"></span>
-                </Navbar.Toggle>
-                <Navbar.Brand href={Pages.Home}>
-                  <img src="./if_logo_white.png" alt="if Logo" style={{ maxWidth: '250px', maxHeight: '150px' }} />
-                </Navbar.Brand>
-              </Container>
-            </Col>
-          </Row>
-          <Row className="mt-1">
-            <Col>
+      <Row>
+        <Col>
+          <Navbar expand="lg" className="navbar-light">
+            <Container>
+              <Navbar.Brand href={Pages.Home}>
+                <img src="./if_logo_white.png" alt="if Logo" style={{ maxWidth: '250px', maxHeight: '150px' }} />
+              </Navbar.Brand>
+              <Navbar.Toggle
+                aria-controls="navbarNav"
+              />
               <Navbar.Collapse id="navbarNav">
-                <Nav className="ml-6">
-                  {Object.values(Pages).map((page) => {
-                    return (
-                      <Nav.Link
-                        key={page}
-                        href={page}
-                        active={currentPage === page}
-                        className={currentPage === page ? "underlined" : ""}
-                      >
-                        {PageNames[page]}
-                      </Nav.Link>
-                    )
-                  })}
+                <Nav className="ml-auto" style={{ display: 'flex', flexDirection: 'row' }}>
+                  {Object.values(Pages).map((page) => (
+                    <Nav.Link
+                      key={page}
+                      href={page}
+                      active={currentPage === page}
+                      className={currentPage === page ? "underlined" : ""}
+                      style={{ marginRight: '10px' }}
+                    >
+                      {PageNames[page]}
+                    </Nav.Link>
+                  ))}
                 </Nav>
               </Navbar.Collapse>
-            </Col>
-          </Row>
-        </Container>
-      </Navbar>
+            </Container>
+          </Navbar>
+        </Col>
+      </Row>
     </Container>
   );
 };
