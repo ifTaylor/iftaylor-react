@@ -23,8 +23,8 @@ export default function Header(
               <Navbar.Toggle
                 aria-controls="navbarNav"
               />
-              <Navbar.Collapse id="navbarNav">
-                <Nav className="ml-auto" style={{ display: 'flex', flexDirection: 'row' }}>
+              <Navbar.Collapse id="navbarNav" className="ml-auto justify-content-end" >
+                <Nav className="ml-auto justify-content-end" style={{ display: 'flex', flexDirection: 'row' }}>
                   {Object.values(Pages).map((page) => (
                     <Nav.Link
                       key={page}
