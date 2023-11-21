@@ -25,7 +25,7 @@ function PDF() {
             pageNumber={index + 1}
             renderAnnotationLayer={false}
             renderTextLayer={false}
-            scale={1}
+            scale={2}
           />
         ))}
       </Document>

@@ -30,7 +30,7 @@ export default function Header(
           <Row className="mt-1">
             <Col>
               <Navbar.Collapse id="navbarNav">
-                <Nav className="ml-auto">
+                <Nav className="ml-6">
                   {Object.values(Pages).map((page) => {
                     return (
                       <Nav.Link
