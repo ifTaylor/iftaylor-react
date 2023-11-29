@@ -32,6 +32,10 @@ $cta-button-hover-color: #00aeef;
   align-items: center;
 }
 
+.left-padding {
+    padding-left: 20px;
+}
+
 // Base styles
 body {
     background-color: $primary-color;
@@ -107,21 +111,25 @@ footer {
     color: white;
 }
 
-.pdf-pages {
-  display: flex;
-  flex-wrap: wrap;
+.resume-container {
+    width: 70% !important;
+    background-color: #00aeef;
+    border-radius: 10px;
 }
 
-.react-pdf__Page__canvas {
-    margin: auto;
-    width: 800px !important;
-    height: 100% !important;
+.react-icons{
+    color: #00aeef;
+    font-size: 40px;
 }
 
-@media (max-width: 768px) {
-    .react-pdf__Page__canvas {
-        margin: auto;
-        width: 350px !important;
-        height: 100% !important;
+.blue-button{
+    background-color:#00aeef !important;
+}
+
+@media (max-width: 767px) {
+    .resume-container {
+      width: 100% !important;
+      background-color: #00aeef;
+      border-radius: 10px;
     }
-}
+  }

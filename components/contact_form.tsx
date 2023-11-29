@@ -55,7 +55,7 @@ function ContactForm() {
         <Row className="center-container">
           <Col>
             <div>Reach out!</div>
-            <div>Email: <a href="mailto:kim@pristinestl.com">resume.tturner@gmail.com</a></div>
+            <div>Email: <a href="mailto:resume.tturner@gmail.com">resume.tturner@gmail.com</a></div>
           </Col>
         </Row>
         <Row>
